@@ -36,10 +36,10 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-    color: #FFFFFF;
     background-image: linear-gradient(#fbc531, #e84118);
     border-radius: 5px;
     padding: 8px 35px;
+    color: white;
 }
 #work {
     background-image: linear-gradient(#fc5c65, #eb3b5a);
@@ -61,8 +61,7 @@ p {
     float: left;
     margin: 2%;
     padding: 2%;
-
-   
+    overflow: hidden;
 }
 .middle {
     text-align: center;
@@ -70,6 +69,17 @@ p {
 .text-color {
     color:#ED4C67;
 }
+#port {
+    background-image: linear-gradient(#fc5c65, #eb3b5a);
+    width: 200px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    
+}
+
+
 .experience-area {
     margin-top: 110px;
     overflow: hidden;
@@ -82,8 +92,9 @@ p {
     box-shadow: 10px 10px 40px;
     border-radius: 5px;
     box-sizing: border-box;
-    height: 80%;
+    min-height: 80%;
     background-color: white;
+    margin-bottom: 120px;
 }
 #web-develop {
     border-left: 5px solid;
