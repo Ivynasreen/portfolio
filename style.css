@@ -57,11 +57,12 @@ p {
     overflow: hidden;
 }
 .one-third-width {
-    width: 25%;
+    width:25%;
     float: left;
-    margin: 3%;
+    margin: 2%;
     padding: 2%;
-    overflow: hidden;
+
+   
 }
 .middle {
     text-align: center;
@@ -75,8 +76,7 @@ p {
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
-    height: 900px;
-    width: 1500px;
+    
 }
 .single-experience {
     box-shadow: 10px 10px 40px;
