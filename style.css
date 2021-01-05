@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.section {
+    height: 500px;
+}
+.top-banner{
+    overflow: hidden;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.color-outline {
+    color: #FF3F4D;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    color: #808080;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin: 0 3% 0;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-image: linear-gradient(#fbc531, #e84118);
+    border-radius: 5px;
+    padding: 8px 35px;
+}
+#work {
+    background-image: linear-gradient(#fc5c65, #eb3b5a);
+    margin-left: 10px;
+}
+.about-area {
+    overflow: hidden;
+    margin-top: 130px;
+    background-image: url("images/dream-bg.png") ;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.service-area {
+    margin-top: 80px;
+    overflow: hidden;
+}
+.one-third-width {
+    width: 25%;
+    float: left;
+    margin: 3%;
+    padding: 2%;
+    overflow: hidden;
+}
+.middle {
+    text-align: center;
+}
+.text-color {
+    color:#ED4C67;
+}
+.experience-area {
+    margin-top: 110px;
+    overflow: hidden;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 900px;
+    width: 1500px;
+}
+.single-experience {
+    box-shadow: 10px 10px 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 80%;
+    background-color: white;
+}
+#web-develop {
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, #F79F1F, #EA2027);
+    border-image-slice: 1;
+}
+#ux-design {
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, #12CBC4, #1B1464);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+    margin-top: 120px;
+}
